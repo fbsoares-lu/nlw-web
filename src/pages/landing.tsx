@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {FiArrowRight} from 'react-icons/fi';
+
 import '../styles/pages/landing.css';
 import Logo from '../images/Logo.svg';
 
@@ -19,7 +21,9 @@ function Landing() {
                     <span>Pernambuco</span>
                 </div>
 
-                <a href="/">></a>
+                <a href="/" className="enter-app">
+                    <FiArrowRight size={24} color="rgba(0,0,0,0.6)" />
+                </a>
             </div>
         </div>
     );
